@@ -27,7 +27,6 @@ def save_user(username, password, public_key, private_key):
         'public_key': public_key,
         'private_key': private_key
     }
-
     with open(USER_DATA_FILE, 'w') as file:
         json.dump(users, file)
     return "Đăng ký thành công!"

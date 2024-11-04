@@ -29,6 +29,13 @@ def main():
         else:
             # Gọi hàm hiển thị lịch trình từ file khác
             display_schedule()
+            
+    elif option == "Quản lý Thời gian biểu":
+        if not st.session_state.is_logged_in:
+            st.warning("Bạn cần phải đăng nhập để truy cập vào tính năng này.")
+        else:
+            # Gọi hàm hiển thị lịch trình từ file khác
+            display_schedule()
 
     elif option == "Đăng Xuất":
         st.session_state.is_logged_in = False

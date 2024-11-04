@@ -46,5 +46,45 @@
         "date": "2024-12-02",
         "repeat_weekly": true,
         "note": ""
+    },
+    "7": {
+        "title": "db",
+        "start_time": "15:04",
+        "end_time": "15:04",
+        "date": "2024-11-04",
+        "repeat_weekly": true,
+        "note": "dm"
+    },
+    "8": {
+        "title": "db",
+        "start_time": "15:04",
+        "end_time": "15:04",
+        "date": "2024-11-11",
+        "repeat_weekly": true,
+        "note": "dm"
+    },
+    "9": {
+        "title": "db",
+        "start_time": "15:04",
+        "end_time": "15:04",
+        "date": "2024-11-18",
+        "repeat_weekly": true,
+        "note": "dm"
+    },
+    "10": {
+        "title": "db",
+        "start_time": "15:04",
+        "end_time": "15:04",
+        "date": "2024-11-25",
+        "repeat_weekly": true,
+        "note": "dm"
+    },
+    "11": {
+        "title": "db",
+        "start_time": "15:04",
+        "end_time": "15:04",
+        "date": "2024-12-02",
+        "repeat_weekly": true,
+        "note": "dm"
     }
 }
