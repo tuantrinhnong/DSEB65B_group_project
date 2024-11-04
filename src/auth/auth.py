@@ -21,10 +21,14 @@ def login():
             
             if decrypted_password == password:
                 st.success("Đăng nhập thành công!")
+                return True
             else:
                 st.error("Sai mật khẩu.")
+                return False
         else:
             st.error("Người dùng không tồn tại.")
+            return False
+
 
 def register():
     st.subheader("Đăng Ký")
